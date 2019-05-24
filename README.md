@@ -12,5 +12,5 @@ This project is licensed under the Creative Commons Attribution 3.0 Unported - s
 
 ## Acknowledgments
 
-This project is based on a [https://html5up.net](HTML5 up) awesome template. Check see the [acknowledgements.txt](acknowledgements.txt) for specific details.
+This project is based on a [HTML5 up](https://html5up.net) awesome template. Check see the [acknowledgements.txt](acknowledgements.txt) for specific details.
 
