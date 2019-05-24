@@ -1,6 +1,6 @@
-# Personal portfolio
+# Personal website
 
-This should be my on-going personal web portfolio with my projects, contributions and experiences. Built on vanilla js, HTML5 and css.
+This should be my personal web portfolio and eventually also my blog to share my on-going projects, contributions, experiences(including my participation on [GSoC 2019](https://summerofcode.withgoogle.com/organizations/6557492048297984/#5617428053098496). Built on vanilla js, HTML5 and css.
 
 ## Running locally
 
