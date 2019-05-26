@@ -2,6 +2,8 @@
 
 This should be my personal web portfolio and eventually also my blog to share my on-going projects, contributions, experiences(including my participation on [GSoC 2019](https://summerofcode.withgoogle.com/organizations/6557492048297984/#5617428053098496)). Built on vanilla js, HTML5 and css.
 
+*Online at:* https://guttz.github.io
+
 ## Running locally
 
 Plain static website, so just drag the index.html to your browser. No secrets. Feel free to mess around and copy anything if you find it interesting.
