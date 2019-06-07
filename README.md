@@ -1,3 +1,9 @@
+# Personal website
+
+This should be my personal web portfolio and eventually also my blog to share my on-going projects, contributions, experiences(including my participation on [GSoC 2019](https://summerofcode.withgoogle.com/organizations/6557492048297984/#5617428053098496)). Built on vanilla js, HTML5 and css.
+
+*Online at:* https://guttz.github.io
+
 # Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/jarrekk/Jalpc)
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
