@@ -11,7 +11,7 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
+  name: Gustavo Morais  # Be used at blog posts' author.
   first_name: Gustavo  # Be used at index page about me section.
   last_name: Morais  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
@@ -52,7 +52,7 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your 
 donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 ## carousels
-index_carousel: on  # index page carousel switch
+index_carousel: off  # index page carousel switch
 blog_carousel: on  # blog page carousel switch
 
 # scss
