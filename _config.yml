@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-google
     - name: fa-github
-  desc: Full-Stack Developer with multiple experiences and projects in Python, Javascript and various frameworks. Check them below.
+  desc: Full-Stack Developer with multiple experiences and projects in Python, Javascript and various frameworks. Check below.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

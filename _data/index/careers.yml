@@ -1,10 +1,26 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+- name:
+    detail: Google Summer of Code Participant - Hydra Eco
+    i18n: company_a
+  desc:
+    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API.
+    i18n: company_a_desc
+  date:
+    detail: May. 2019
+    i18n: company_a_date
+  job:
+    detail: Full Stack Developer
+    i18n: company_a_job
+  icon: fa-plus-square
+  logo: /static/assets/img/landing/gsoc.png
+
 - name:
     detail: Volksbank / Fiducia & GAD IT AG - Germany
     i18n: company_a
   desc:
-    detail: Working alongside 5 team members from 5 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes, MVPs and continuously presented our ideas to the company and received feedback. Inside a 6-Sized Agile team I worked as a Full-Stack Engineer. <br> <a href="https://www.w3schools.com">Visit it</a>
+    detail: Working alongside 5 team members from 5 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes, MVPs and continuously presented our ideas to the company and received feedback.
     i18n: company_a_desc
   date:
     detail: Oct. 2018
@@ -13,19 +29,49 @@
     detail: Full Stack Engineer
     i18n: company_a_job
   icon: fa-plus-square
-  logo: /static/assets/img/landing/google.png
+  logo: /static/assets/img/landing/fiducia.png
 
 - name:
-    detail: Company B
+    detail: Electrolux
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Saved hundreds of thousands of dollars and work hours by modeling and implementing different digital solutions in the Purchasing department. The solutions vary in cost-modeling with data science, reduction of manual work, cost and digital tools to increase transparency and collaboration.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Oct. 2017
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Full-Stack Developer - Digital Transformation Team
     i18n: company_b_job
   icon: fa-plus-square
-  logo: /static/assets/img/landing/google.png
+  logo: /static/assets/img/landing/electrolux.png
+
+- name:
+    detail: Organiza AI
+    i18n: company_b
+  desc:
+    detail: Co-founded and developed a complete system for managing technical service providers, which includes a full-featured web system to control everything the company needs. Ticket control, stock and financial management, reports and much more. 
+    i18n: company_b_desc
+  date:
+    detail: Sept. 2017
+    i18n: company_b_date
+  job:
+    detail: Co-Founder and Fullstack Developer - organizaai.com
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: /static/assets/img/landing/organizaai.png
+
+- name:
+    detail: Federal Technological University of Paraná
+    i18n: company_b
+  desc:
+    detail: Developed and implemented a methodology for analyzing the efficiency of Curitiba's public transport. Co-author of an article that describes it, which was published in the Global Control of Transportation Systems Symposium.
+    i18n: company_b_desc
+  date:
+    detail: Aug. 2015 - Feb. 2017
+    i18n: company_b_date
+  job:
+    detail: Student Assistant Researcher
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: /static/assets/img/landing/utfpr.png

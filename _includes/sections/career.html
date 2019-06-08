@@ -17,9 +17,9 @@
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
                         <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
                         <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }} </span></p>
-                        <span class="vertical-date"> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> <br/>
-                        <span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span> <br/>
-                        <img src="{{career.logo}}" alt="Smiley face" height="100"> </span>
+                        <span class="vertical-date"> <small> <span class="job-title" data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> <br/>
+                        <span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span> <br/> <br/> 
+                        <img style="max-width: 300px; max-height: 100px;" src="{{career.logo}}" alt="Smiley face"> </span>
                     </div>
                 </div>
             {% endfor %}
