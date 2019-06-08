@@ -1,18 +1,19 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Volksbank / Fiducia & GAD IT AG - Germany
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Working alongside 5 team members from 5 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes, MVPs and continuously presented our ideas to the company and received feedback. Inside a 6-Sized Agile team I worked as a Full-Stack Engineer. <br> <a href="https://www.w3schools.com">Visit it</a>
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Oct. 2018
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Full Stack Engineer
     i18n: company_a_job
   icon: fa-plus-square
+  logo: /static/assets/img/landing/google.png
 
 - name:
     detail: Company B
@@ -27,3 +28,4 @@
     detail: Full Stack Developer
     i18n: company_b_job
   icon: fa-plus-square
+  logo: /static/assets/img/landing/google.png
