@@ -1,22 +1,21 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
-
-- name: Python
+- name: Open Source Contributor - Hydra Eco
   i18n: cpython
-  gh_user: python
-  repo: cpython
+  gh_user: HTTP-APIs
+  repo: hydrus
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: hydrus is a set of Python based tools for easier and efficient creation of Hypermedia driven REST-APIs. hydrus utilises the power of Linked Data to create a powerful REST APIs to serve data. hydrus uses the Hydra(W3C) standard for creation and documentation of it's APIs.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: Data Science and NLP
+  i18n: jalpc
+  url: https://www.phonetrack.com.br/
+  img: /static/assets/img/landing/phonetrack.png
+  desc: Implemented  a  Ensemble  of  Machine  Learning  Models  for  NLP(Natural  Language  Processing)  withPython and Sci-kit learning inside a Startup alongside two other developers as my thesis.
+
+- name: Industrial IoT and Production Monitoring
+  i18n: cpython
+  url: https://processolution.wordpress.com/
+  img: /static/assets/img/landing/process.png
+  desc: Complete system for quality control of an industrial production line with several sensors and also a camera. Website with live productivity graphics and alerts on possible errors. Simulated industrial environment.

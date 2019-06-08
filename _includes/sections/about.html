@@ -35,6 +35,9 @@
                     {% if site.author.twitter_username %}
                     <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
                     {% endif %}
+                    {% if site.author.stackoverflow_profile %}
+                    <li><a href="{{ site.author.stackoverflow_profile}}" target="blank"><i class="fa fa-stack-overflow"></i></a></li>
+                    {% endif %}
                     {% if site.author.email %}
                     <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
                     {% endif %}
