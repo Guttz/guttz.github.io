@@ -7,3 +7,15 @@
 @import "open_sans";
 @import "roboto";
 @import "style";
+
+.navbar .navbar-default .navbar-fixed-top{
+    background: grey;
+}
+
+.active {
+    color: black;
+}
+
+#inSlider {
+    display: none;
+}
