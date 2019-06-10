@@ -17,4 +17,4 @@ This project is licensed under the Creative Commons Attribution 3.0 Unported - s
 
 ## Acknowledgments
 
-This project is based on [the awesome open source Jalpc Jenkyll template](https://github.com/jarrekk/Jalpc). Personalizations were and will be made to different parts of the template. If you like anything you see here, feel free to use it!
+This project is based on [the awesome open source Jalpc Jekyll template](https://github.com/jarrekk/Jalpc). Personalizations were and will be made to different parts of the template. If you like anything you see here, feel free to use it!
