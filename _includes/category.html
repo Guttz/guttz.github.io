@@ -20,7 +20,11 @@ $(function(){
         {% if category == 'Html' %}
         {% assign category = category | upcase %}
         {% endif %}
+        {% if category == 'Gsoc19' %}
+        <h1>Google Summer of Code 2019</h1>
+        {% else %}
         <h1>{{ category }}</h1>
+        {% endif %}
     </div>
 </div>
 <div class="wrapper wrapper-content  animated fadeInRight blog">
