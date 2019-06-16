@@ -30,13 +30,15 @@ After all the discussion and conclusions **we settled onto a layered model** of 
 <img src="/static/assets/img/blog/2019-06-15-hydra-smart-agent-foundations/structure.png" alt="agent-structure" style="display: block; margin-left: auto; margin-right: auto; width: 900px; max-width: 100%;">
 <div style="height: 30px"></div>
 
-### Each layer and its function
+Each layer and its function:
 
 1. The first layer should contain and encapsulate the low-level interaction when making HTTP requests to the server and also interacting internally with Redis.
 
 2. Now the second layer is an Agent interface which should enable users to be able to do all basic CRUD operations while being able to use and support **all Hydra features.**
 
 3. Last we have a high-level layer which will be the enhancement of a querying format that should enable natural language-like querying for an even higher level of abstraction for the user. He should be able to ask for things like **"Show me temperature for city Berlin"**.
+
+### Let's get to the coding
 
 With that structure, the development was started and can be followed up at [PR #109](https://github.com/HTTP-APIs/hydra-python-agent/pull/109). Basically, we want for now to provide a working grounded structure for the Agent module making use of graphutils operations and a lasting Session. In the current state, the Agent is able to do something like this:
 
