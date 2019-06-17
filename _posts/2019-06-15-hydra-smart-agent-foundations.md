@@ -59,6 +59,6 @@ More than that, this same interface will be using all the advantages of a cache 
 Thanks for reading. Hope to see you on the next one!
 
 [^2]: A.K.A. - Also known as
-[^1]: PoC - Prrof of Concept
+[^1]: PoC - Proof of Concept
 
 ---
