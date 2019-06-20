@@ -5,7 +5,7 @@
     detail: Google Summer of Code Participant - Hydra Eco
     i18n: company_a
   desc:
-    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API.
+    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API. <br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> GSoC Link </a>  	&nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+Guttz&type=Commits"> Contributions Link </a> &nbsp • &nbsp <a href="https://drive.google.com/uc?authuser=0&id=1Z3pQa2II4O9bL2gzQZ5HBpVqU5H4cde3&export=download"> Detailed Proposal </a>
     i18n: company_a_desc
   date:
     detail: May. 2019
