@@ -40,13 +40,68 @@ Each layer and its function:
 
 ### Let's get to the coding
 
-With that structure, the development was started and can be followed up at [PR #109](https://github.com/HTTP-APIs/hydra-python-agent/pull/109). Basically, we want for now to provide a working grounded structure for the Agent module making use of graphutils operations and a lasting Session. In the current state, the Agent is able to do something like this:
+With that structure, the first version was developed at [PR #109](https://github.com/HTTP-APIs/hydra-python-agent/pull/109). Basically, we wanted to provide a **working grounded structure for the Agent**  module making use of graphutils operations and a lasting Session. So in the end the Agent is able to something like this:
 
 <div style="height: 30px"></div>
 <img src="/static/assets/img/blog/2019-06-15-hydra-smart-agent-foundations/current_agent.png" alt="agent-structure" style="display: block; margin-left: auto; margin-right: auto; width: 600px; max-width: 100%;">
 <div style="height: 30px"></div>
 
-**But that's not only it**, this was only the first step of a series of enhancements that will make sure that the Agent uses everything Hydra enables it to do. Ultimately, the Agent should have the core functionality as depicted in the GET below(code details were hidden and naming simplified to focus on the future core functionality).
+The same is **valid for all CRUD operations**, right now the Agents supports:
+
+- GET - used to READ resources or collections
+- PUT - used to CREATE new resources in the Server
+- POST - used to UPDATE resources in the Server
+- DELETE - used to DELETE resources in the Server
+
+To **READ** an existing resource you should:
+```
+agent.get("http://localhost:8080/serverapi/<CollectionType>/<Resource-ID>")
+agent.get("http://localhost:8080/serverapi/<CollectionType>/")
+```
+
+To **CREATE** a new resource you should:
+```
+new_resource = {"@type": "Drone", "name": "Drone 1", "model": "Model S", ...}
+agent.put("http://localhost:8080/serverapi/<CollectionType>/", new_resource)
+```
+
+To **UPDATE** a resource you should:
+```
+existing_resource["name"] = "Updated Name"
+agent.post("http://localhost:8080/serverapi/<CollectionType>/<Resource-ID>", existing_resource)
+```
+
+To **DELETE** a resource you should:
+```
+agent.delete("http://localhost:8080/serverapi/<CollectionType>/<Resource-ID>")
+```
+
+So with this methods working, we are now able to do some interactions with a hydrus server in a straighfoward way. **A simple lifecycle of a resource**, for a collection of Drones, would be something like:
+
+```
+# Initializing Agent with hydrus server link
+agent = Agent("http://localhost:8080/serverapi")
+
+# Creating Resource on the Server
+new_object = {"@type": "Drone", "DroneState": "Simplified state", "name": "Smart Drone", "model": "Hydra Drone", "MaxSpeed": "999", "Sensor": "Wind"}
+put_response, new_resource_url = agent.put("http://localhost:8080/serverapi/DroneCollection/", new_object)
+
+# Updating the resource
+new_object["name"] = "Updated Name"
+agent.post(new_resource_url, new_object)
+
+# Retrieving updated resource
+agent.get(new_resource_url)
+
+# Deleting resource from server
+agent.delete(new_resource_url)
+```
+
+**It's important to note,** that all these straighforward requests are now supported by a Caching Redis-layer. So everytime you query for a resource that the Agent already has it will be instatly fetched from Redis.
+
+### That's not only it...
+
+This was **only the first step of a series of enhancements** that will make sure that the Agent uses everything Hydra enables it to do. Ultimately, the Agent should have the core functionality as depicted in the GET below(code details were hidden and naming simplified to focus on the future core functionality).
 
 <div style="height: 30px"></div>
 <img src="/static/assets/img/blog/2019-06-15-hydra-smart-agent-foundations/future_agent.png" alt="agent-structure" style="display: block; margin-left: auto; margin-right: auto; width: 600px; max-width: 100%;">
