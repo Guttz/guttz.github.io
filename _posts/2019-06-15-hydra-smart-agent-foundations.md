@@ -7,6 +7,9 @@ keywords: "Hydra,linked-data,hypermedia,webapis,websematics"
 categories: [Gsoc19]
 tags: [Hydra, GSoC'19, Hypermedia APIs, Linked Data, Hydra Ecosystem]
 icon: icon-google
+redirect_from:
+  - /y8wx
+  - /hydra-agent-foundations
 ---
 
 **Hello and welcome to my blog!** This post is part of a series of blog posts where I'll be documenting my Google Summer of Code 2019 experience. I'm working at the Hydra Ecosystem organization developing a set of tools with Python to build the future of descriptive Web APIs! Now, if you didn't understand any of this but you found the concept interesting, first head to [https://www.hydraecosystem.org/](https://www.hydraecosystem.org/) and read some introduction materials :) <br />
