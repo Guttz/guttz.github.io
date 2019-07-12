@@ -8,7 +8,7 @@ This is my personal web portfolio and also my blog to share my on-going projects
 The website is hosted with Github Pages, to run it locally please follow the [official github tutorial to run it locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll). After setting up everything correctly, just run:
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 ## License
