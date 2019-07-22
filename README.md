@@ -11,6 +11,14 @@ The website is hosted with Github Pages, to run it locally please follow the [of
 bundle exec jekyll serve --livereload
 ```
 
+## [Recommendation] For blogging I use VS Code Spell Checker 
+
+https://github.com/HTTP-APIs/hydra-python-agent/pulls?q=is%3Apr+is%3Aclosed
+
+```
+ext install streetsidesoftware.code-spell-checker
+```
+
 ## License
 
 This project is licensed under the Creative Commons Attribution 3.0 Unported - see the [LICENSE.txt](LICENSE.txt) file for details.
