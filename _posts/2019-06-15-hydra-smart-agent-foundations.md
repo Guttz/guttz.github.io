@@ -24,7 +24,7 @@ Now to the real deal. [Our community](https://github.com/HTTP-APIs) has currentl
 To take the next step into building a full-featured Smart Agent for our community we have to set a good and well-projected foundation so our code fits and is able to use all the advantages of Hydra. That said, in the first weeks of GSoC'19 we focused on a Design Document paired with various discussions between the members to settle into more rounded up architecture. Here are some reference links to take a look at the discussions and may be helpful for future readers too!
 
 - [Design Doc Available at Google Docs with Discussion](https://docs.google.com/document/d/189TNgNHFG79U68fJtqz12lhACDvMqzYEUIShv9Bl2RI/edit?usp=sharing)
-- Issues and Open Dicussions being developed: [#101](https://github.com/HTTP-APIs/hydra-python-agent/issues/101) and [#99](https://github.com/HTTP-APIs/hydra-python-agent/issues/99)
+- Issues and Open Discussions being developed: [#101](https://github.com/HTTP-APIs/hydra-python-agent/issues/101) and [#99](https://github.com/HTTP-APIs/hydra-python-agent/issues/99)
 - Ref. base links and older issues: [Redis as Database](https://www.hydraecosystem.org/hydra-agent-redis-graph) - [Graph Structure Issue](https://github.com/HTTP-APIs/hydra-python-agent/issues/18) - [Redis Basic Implementation PR](https://github.com/HTTP-APIs/hydra-python-agent/pull/13) -  [Querying Mechanism Implementation](https://github.com/HTTP-APIs/hydra-python-agent/pull/23)
 
 After all the discussion and conclusions **we settled onto a layered model** of abstraction that consists of three levels. The picture below has the different modules in the code and their functions.
@@ -79,7 +79,7 @@ To **DELETE** a resource you should:
 agent.delete("http://localhost:8080/serverapi/<CollectionType>/<Resource-ID>")
 ```
 
-So with this methods working, we are now able to do some interactions with a hydrus server in a straighfoward way. **A simple lifecycle of a resource**, for a collection of Drones, would be something like:
+So with this methods working, we are now able to do some interactions with a hydrus server in a straightforward way. **A simple life cycle of a resource**, for a collection of Drones, would be something like:
 
 ```
 # Initializing Agent with hydrus server link
@@ -100,7 +100,7 @@ agent.get(new_resource_url)
 agent.delete(new_resource_url)
 ```
 
-**It's important to note,** that all these straighforward requests are now supported by a Caching Redis-layer. So everytime you query for a resource that the Agent already has it will be instatly fetched from Redis.
+**It's important to note,** that all these straightforward requests are now supported by a Caching Redis-layer. So every time you query for a resource that the Agent already has it will be instantly fetched from Redis.
 
 ### That's not only it...
 
