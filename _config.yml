@@ -10,7 +10,7 @@ url: https://gustavomorais.me  # url should be 'http://<github_username>.github.
 img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
-author:  # change following line to your infomation.
+author:  # change following line to your information.
   name: Gustavo Morais  # Be used at blog posts' author.
   first_name: Gustavo  # Be used at index page about me section.
   last_name: Morais  # Be used at index page about me section.
