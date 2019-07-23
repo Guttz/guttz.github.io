@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Hydra Smart Agent - All Set Up"
-date:   2019-06-15
-desc: "This post will describe the first steps developed in the Hydra Smart Agent"
+date:   2019-07-20
+desc: "New features and enhancements for in the Hydra Smart Agent"
 keywords: "Hydra,linked-data,hypermedia,webapis,websematics"
 categories: [Gsoc19]
 tags: [Hydra, GSoC'19, Hypermedia APIs, Linked Data, Hydra Ecosystem]
 icon: icon-google
 redirect_from:
   - /y8wa
-  - /hydra-agent-in-action
+  - /hydra-agent-all-set-up
 ---
 
 Hello and welcome to my blog! This is the second part of the [blog post here](https://gustavomorais.me/gsoc19/2019/06/15/hydra-smart-agent-foundations.html) about the Hydra Smart Agent. If you have some interest but isn't yet quite familiar with Hydra, head to https://www.hydraecosystem.org/ and read some introductory materials to get familiar :) 
