@@ -29,7 +29,7 @@ In our last blog post, we detailed the foundations of the Hydra Python Agent. Th
 ### Ongoing implementation
 - [Synchronization Mechanism for Server-Client Updates](https://github.com/HTTP-APIs/hydra-python-agent/pull/123)
                               
-On this blog post we will focus mainly detailing the new features since they involve more complex architecture decision making.
+On this blog post we will focus mainly on detailing the new features since they involve more complex architectural decision making.
 
 ---------------------------
 # New features
