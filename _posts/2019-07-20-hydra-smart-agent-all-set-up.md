@@ -14,7 +14,7 @@ redirect_from:
 
 Hello and welcome to my blog! This is the second part of the [blog post here](https://gustavomorais.me/gsoc19/2019/06/15/hydra-smart-agent-foundations.html) about the Hydra Smart Agent. If you have some interest but isn't yet quite familiar with Hydra, head to https://www.hydraecosystem.org/ and read some introductory materials to get familiar :) 
 
-In our last blog post, we detailed the foundations of the Hydra Python Agent. The agent could already execute all CRUD operations through GET, PUT, POST and DELETE. However, this was still at a pretty basic level where it could only be made using specific URLs for the resources, not leveraging on the power of Hydra's Descriptive APIs to have the Agent set up as we wanted. More than that, we had some inconsistencies in the implementation we had to solve. Below there's a summary of what was made with the proper PR links:
+In our last blog post, we detailed the foundations of the Hydra Python Agent. The agent could already execute all CRUD operations through GET, PUT, POST and DELETE. However, this was still at a pretty basic level where it could only be made using specific URLs for the resources, not leveraging on the power of Hydra's Descriptive APIs to have the Agent set up as we wanted. More than that, we had some inconsistencies in the implementation we had to solve. **Below there's a summary of what was made with the proper PR links**:
 
 ### New Features
 1. [Recursive Node Creation for Linked Data](https://github.com/HTTP-APIs/hydra-python-agent/pull/118)
@@ -36,7 +36,7 @@ On this blog post we will focus mainly detailing the new features since they inv
 
 
 ### Recursive Node Creation for Linked Data
-When creating Hydra APIs, it's possible to link data assigning URIs as a resource property as you see can see in the image below. In practical terms, you can have an object called Drone which has 10 properties and one of them is State, which is actually another object that may contain other 5 properties and so on. Considering that, we had an inconsistency with the Redis Caching implementation([ISSUE #113](https://github.com/HTTP-APIs/hydra-python-agent/issues/113)), when we had embedded URIs for other resources. Then we would only fetch the main object's properties and not the linked one.
+When creating Hydra APIs, it's possible to **link data assigning URIs as a resource property** as you see can see in the image below. In practical terms, you can have an object called Drone which has 10 properties and one of them is State, which is actually another object that may contain other 5 properties and so on. Considering that, we had an inconsistency with the Redis Caching implementation([ISSUE #113](https://github.com/HTTP-APIs/hydra-python-agent/issues/113)), when we had embedded URIs for other resources. Then we would only fetch the main object's properties and not the linked one.
 
 <div style="height: 30px"></div>
 <img src="/static/assets/img/blog/2019-07-20-hydra-smart-agent-in-action/embedded_resource.png" alt="agent-structure" style="display: block; margin-left: auto; margin-right: auto; width: 700px; max-width: 100%;">
@@ -89,13 +89,13 @@ More about these on PR #117: https://github.com/HTTP-APIs/hydra-python-agent/pul
 ### Updating Core Packages
 Since the Agent's implementation started, its core repositories received breaking updates that weren't yet implemented. These were focused in two areas, first the Redis Graph implementation: 
 
-- Redis Graph 1.7 -> 2.0
-- Redis 2.10.6 -> 3.2.1
-- Redis Docker IMG 1.2.2 -> edge
+- **Redis Graph 1.7 -> 2.0**
+- **Redis 2.10.6 -> 3.2.1**
+- **Redis Docker IMG 1.2.2 -> edge**
 
 Second Hydra Spec updates implemented in our Hydra Python Core repository:
 
-- hydra-python-core@v0.1 -> master
+- **hydra-python-core@v0.1 -> master**
 
 Now the agent is up to date with both, and its inner functions were adopted to make use of the beneficial changes in the repositories.
 
