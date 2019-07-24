@@ -14,12 +14,16 @@ redirect_from:
 
 Today we live in a **connected and distributed world**, one that enables us to quickly build applications and solutions that **can fetch Google Maps addresses from US, get the weather from India, check the currency exchange from anywhere** in the world and much more. This enables us to build such complete and powerful applications and it sounds awesome, right? Well, it's not so easy as it sounds... For these information to be provided each of these services are provided by what we call APIs(Application Programming Interfaces), and well... **interfaces come in all shapes, sizes and formats**. 
 
-This post is focused on describing in a simple language what is the Hydra Ecosystem and how it can make it easier to provide a new data-rich and linked World Wide Web. For that, **I'll guide you through an application implementation process** as the developer partner, so you can understand **how connecting services(APIs) are done today, and how they could be done tomorrow**. 
+This post is focused on describing in a simple language **what is the Hydra Ecosystem** and how it can make it easier to provide a new data-rich and linked World Wide Web. For that, **I'll guide you through an application implementation process** as the developer partner, so you can understand **how connecting services(APIs) are done today, and how they could be done tomorrow**. 
+
+<div style="height: 30px"></div>
+<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/hydra_network.png" alt="hydra_ecosystem" style="display: block; margin-left: auto; margin-right: auto; width: 750px; max-width: 100%;">
+<div style="height: 30px"></div>
 
 -------------
 ## Descriptive Interfaces
 
-So let's say, we are a team that has to create an application that would like to have **the weather shown to the user**. We browse through hundreds of different Weather Services(APIs) and after reading about a dozen of architectural styles and formats we finally pick one, the [OpenWeather](https://openweathermap.org/) API. Although we selected the API, itself has various different ways of providing the information we need as you can glance below.
+So let's say, we are a team that has to create an application that would like to have **the weather shown to the user**. We browse through hundreds of different Weather Services(APIs) and after reading about a dozen of architectural styles and formats we finally pick one, the [OpenWeather](https://openweathermap.org/) API. Although we selected the API, there are still various different ways of querying for the information we need as you can glance below.
 
 <div style="height: 30px"></div>
 <img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/openweather_services.png" alt="agent-structure" style="display: block; margin-left: auto; margin-right: auto; width: 900px; max-width: 100%;">
