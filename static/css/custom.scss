@@ -8,6 +8,11 @@
 @import "roboto";
 @import "style";
 
+/**************/
+/* BASE RULES */
+/**************/
+$headers-color: #747474d5;
+
 .navbar .navbar-default .navbar-fixed-top{
     background: grey;
 }
@@ -24,3 +29,12 @@
     font-size: 1.3em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: $headers-color;
+    font-weight: bold;
+  
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
+
+}
