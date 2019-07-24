@@ -105,6 +105,8 @@ With that, if there are some of our Smart Devices that can make use of this info
 
 **If you're a developer** and found the above interesting, there's plenty more from what this came from and also projects we would appreciate help with. You can consider joining [our Open Source Community](https://github.com/HTTP-APIs/), read some introductory technical material [at our home page](https://www.hydraecosystem.org/) or reach out to us in [our Open Gitter chat!](https://gitter.im/HTTP-APIs/Lobby).
 
+Thanks a lot for the interest and reading! Drop your like/comment below to support the article.
+
 **Links:**
 
 - https://github.com/HTTP-APIs/
@@ -113,11 +115,11 @@ With that, if there are some of our Smart Devices that can make use of this info
 - https://gustavomorais.me/gsoc19/
 - https://twitter.com/HydraEcosystem
 
+[^1]: Hydra CG - https://www.hydra-cg.com/
+[^2]: hydrus server - https://github.com/HTTP-APIs/hydrus
+[^3]: Hydra Python Agent - https://github.com/HTTP-APIs/hydra-python-agent
+
 ---
-
-Thanks a lot for the interest and reading! Drop your like/comment below to support the article.
-
-[^1]: Hydra - Hypermedia Driven API
 
 **About the Author** <br>
 [Gustavo Morais - Software Developer](https://gustavomorais.me/) <br>
@@ -125,3 +127,5 @@ Thanks a lot for the interest and reading! Drop your like/comment below to suppo
 Website: https://gustavomorais.me/ <br>
 Linkedin: https://www.linkedin.com/in/gustavo-morais/ <br>
 Github: https://github.com/guttz/ <br>
+
+---
