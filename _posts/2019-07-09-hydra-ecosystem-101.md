@@ -83,16 +83,39 @@ Maybe simply looking for the **weather of a city isn't a hard task** and you won
 agent.get("Weather", {country: "Brazil", has_forecast: "rain"})
 ```
 
-In this example, forecast is not an information that is already contained in the Weather when we fetch it, however, the Weather object has a link to another existing information that are the Forecasts. Linked Data basically means that the data stored by our hydrus server not only has the attributes for each resource but also relationships describing how the data relates to other existing data! In the end, this enables the Agent to fetch resources not only by one property, but however we want combining all the properties the resource supports and also the relationships/properties that the resource is related to!
+In this example, forecast is not an information that is already contained in the Weather when we fetch it, however, **the Weather object has a link** to another existing information that are the Forecasts. Linked Data basically means that the data stored by our server not only has the information for each resource but also a link that describes how the data relates to other information also available on the web! In the end, this enables the Agent to query and filter resources not only by one property, but however we want **combining all the properties the resource supports and also the relationships/properties that the resource is linked to!**
 
 --------------
 ## Scaling and Future
 
-One last interesting core feature that the Hydra Ecosystem aims to provide in the future is that all the above to be supported in a easily scalable parallel decoupled manner. That said, imagine we have created our small hydrus server to provide the Weather for a bunch of Smart Devices at our office.
+One last interesting feature that the Hydra Ecosystem aims to provide in the future is that all the above to be supported in a easily scalable parallel decoupled manner. That said, imagine we have created our small hydrus server to provide the Weather for a bunch of Smart Devices at our office.
 
 Nonetheless, we decide that we want our office to be more technological and we also have a new hydrus server that will be able to provide Luminosity and Humidity for all meeting rooms. In that scenario, the Agent should be able to automatically detect the new server and already be able to know what kind of data it provides and make requests to it.
 
 With that, if there are some of our Smart Devices that can make use of this information, they should automatically detect and start to use it. So if we have a Smart Window in our rooms, for example, it should automatically start to use not only the weather but also the luminosity and humidity to determine how it should behave along the day with different weather, luminosity and humidity.
 
+--------------
+## Want to know more?
+**If you're not a developer** but a technology enthusiast make sure to [follow the Hydra Ecosystem on Twitter](https://twitter.com/HydraEcosystem) to stay tuned!
+
+**If you're a developer** and found the above interesting, there's plenty more from what this came from. You can consider joining [our Open Source Community](https://github.com/HTTP-APIs/), read some introductory technical material [at our home page](https://www.hydraecosystem.org/) or reach out to us in [our Open Gitter chat!](https://gitter.im/HTTP-APIs/Lobby)  
+
+**Links:**
+
+- https://github.com/HTTP-APIs/
+- https://www.hydraecosystem.org/
+- https://gitter.im/HTTP-APIs/Lobby
+- https://gustavomorais.me/gsoc19/
+- https://twitter.com/HydraEcosystem
+
 ---
-If you found the above interesting and you're a developer, consider joining our Open Source Community! If you're just an technology enthusiast make sure to follow us on Twitter to stay tuned. 
+
+Thanks for reading all of this! Drop your like/comment below to support me.
+
+[^1]: Hydra - Hypermedia Driven API
+
+**About the Author** <br>
+[Gustavo Morais - Software Developer](https://gustavomorais.me/) <br>
+Website: https://gustavomorais.me/ <br>
+Linkedin: https://www.linkedin.com/in/gustavo-morais/ <br>
+Github: https://github.com/guttz/ <br>
