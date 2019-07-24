@@ -16,10 +16,6 @@ Today we live in a **connected and distributed world**, one that enables us to q
 
 This post is focused on describing in a simple language **what is the Hydra Ecosystem** and how it can make it easier to provide a new data-rich and linked World Wide Web. For that, **I'll guide you through an application implementation process** as the developer partner, so you can understand **how connecting services(APIs) are done today, and how they could be done tomorrow**. 
 
-<div style="height: 30px"></div>
-<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/hydra_network.png" alt="hydra_ecosystem" style="display: block; margin-left: auto; margin-right: auto; width: 750px; max-width: 100%;">
-<div style="height: 30px"></div>
-
 -------------
 ## Descriptive Interfaces
 
@@ -96,7 +92,12 @@ One last interesting feature that the Hydra Ecosystem aims to provide in the fut
 
 Nonetheless, we decide that we want our office to be more technological and we also have a new hydrus server that will be able to provide Luminosity and Humidity for all meeting rooms. In that scenario, the Agent should be able to automatically detect the new server and already be able to know what kind of data it provides and make requests to it.
 
-With that, if there are some of our Smart Devices that can make use of this information, they should automatically detect and start to use it. So if we have a Smart Window in our rooms, for example, it should automatically start to use not only the weather but also the luminosity and humidity to determine how it should behave along the day with different weather, luminosity and humidity.
+With that, if there are some of our Smart Devices that can make use of this information, they should automatically detect and start to use it. So if we have a Smart Window in our rooms, for example, it should automatically start to use not only the weather but also the luminosity and humidity to determine how it should behave along the day with different weather, luminosity and humidity. Take a look on how a Hydra Network would look like:
+
+<div style="height: 30px"></div>
+<a href="https://gustavomorais.me/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/hydra_network.png">
+<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/hydra_network.png" alt="hydra_ecosystem" style="display: block; margin-left: auto; margin-right: auto; width: 750px; max-width: 100%;">
+<div style="height: 30px"></div>
 
 --------------
 ## Want to know more?
