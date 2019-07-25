@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Next Generation Hypermedia APIs - Hydra Ecosystem"
-date:   2019-07-08
+date:   2019-07-24
 desc: "Next Generation Hypermedia APIs and Hydra Ecosystem | Reading Time: 5 minutes"
 keywords: "Hydra,linked-data,hypermedia,webapis,websematics"
 categories: [Gsoc19]
@@ -15,6 +15,12 @@ redirect_from:
 Today we live in a **connected and distributed world**, one that enables us to quickly build applications and solutions that **can fetch Google Maps addresses from the US, get the weather from India, check the currency exchange from anywhere** in the world and much more. This enables us to build such complete and powerful applications and it sounds awesome, right? Well, it's not so easy as it sounds... For these information to be provided each of these services are provided by what we call APIs(Application Programming Interfaces), and well... **interfaces come in all shapes, sizes, and formats**. 
 
 This post is focused on describing in a simple language **what is the Hydra Ecosystem** and how it can make it easier to provide a new data-rich and linked World Wide Web. For that, **I'll guide you through an application implementation process** as the developer partner, so you can understand **how connecting services(APIs) are done today, and how they could be done tomorrow**. 
+
+<div style="height: 30px"></div>
+<a href="https://gustavomorais.me/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/gsoc_poster.png">
+<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/gsoc_poster.png" alt="hydra_ecosystem" style=" margin-left: auto; margin-right: auto; width: 750px; max-width: 100%;">
+<div style="height: 30px"></div>
+
 
 -------------
 ## Descriptive Interfaces
@@ -107,23 +113,15 @@ With that, if there are some of our Smart Devices that can make use of this info
 
 Thanks a lot for the interest and reading! Drop your like/comment below to support the article.
 
-**Links:**
-
-- https://github.com/HTTP-APIs/
-- https://www.hydraecosystem.org/
-- https://gitter.im/HTTP-APIs/Lobby
-- https://gustavomorais.me/gsoc19/
-- https://twitter.com/HydraEcosystem
-
 [^1]: Hydra CG - https://www.hydra-cg.com/
 [^2]: hydrus server - https://github.com/HTTP-APIs/hydrus
 [^3]: Hydra Python Agent - https://github.com/HTTP-APIs/hydra-python-agent
 
 ---
 
-**About the Author** <br>
+### About the Author <br>
 [Gustavo Morais - Software Developer](https://gustavomorais.me/) <br>
-*Google Summer of Code Participant - Hydra Ecosystem* <br>
+*Google Summer of Code Participant - Hydra Ecosystem* <br> <br>
 Website: https://gustavomorais.me/ <br>
 Linkedin: https://www.linkedin.com/in/gustavo-morais/ <br>
 Github: https://github.com/guttz/ <br>
