@@ -5,15 +5,15 @@
     detail: Google Summer of Code Participant - Hydra Eco
     i18n: company_a
   desc:
-    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API. <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> GSoC Link </a>  	&nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://drive.google.com/uc?authuser=0&id=1Z3pQa2II4O9bL2gzQZ5HBpVqU5H4cde3&export=download"> Detailed Proposal </a>
+    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API. <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> Google SoC Project Link </a>  	&nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://gustavomorais.me/gsoc19/"> Technical Blogging </a>
     i18n: company_a_desc
   date:
-    detail: May. 2019
+    detail: May 2019 - Present
     i18n: company_a_date
   job:
     detail: Full Stack Developer
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-google
   logo: /static/assets/img/landing/gsoc.png
 
 - name:
@@ -23,12 +23,12 @@
     detail: Working alongside 5 team members from 5 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes  and various MVPs. Elected the best booth at the Annual German Banking Conference (COM19). <br><br> <a href="https://www.profil.bayern/05-2019/praxis/wie-kiu-und-botto-bankkunden-helfen-wollen/#c11190"> Profil Report </a>
     i18n: company_a_desc
   date:
-    detail: Oct. 2018
+    detail: Oct. 2018 - May 2019
     i18n: company_a_date
   job:
     detail: Full Stack Engineer
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-university
   logo: /static/assets/img/landing/fiducia.png
 
 - name:
@@ -38,12 +38,12 @@
     detail: Saved hundreds of thousands of dollars and work hours by modeling and implementing different digital solutions in the Purchasing department. The solutions vary in cost-modeling with data science, reduction of manual work, cost and digital tools to increase transparency and collaboration.
     i18n: company_b_desc
   date:
-    detail: Oct. 2017
+    detail: Oct. 2017 - Oct. 2018 
     i18n: company_b_date
   job:
     detail: Full-Stack Developer - Digital Transformation Team
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-signal
   logo: /static/assets/img/landing/electrolux.png
 
 - name:
@@ -53,12 +53,12 @@
     detail: Co-founded and developed a complete system for managing technical service providers, which includes a full-featured web system to control everything the company needs. Ticket control, stock and financial management, reports and much more. <br><br> <a href="https://imgur.com/a/1ywg6Nl">App Demo</a>  &nbsp • &nbsp  <a href="https://organizaai.com/"> Website </a>  &nbsp • &nbsp  <a href="https://github.com/Guttz/Organiza-Ai"> Repository(Open Source outdated) </a>
     i18n: company_b_desc
   date:
-    detail: Sept. 2017
+    detail: Sept. 2017 - Feb. 2019
     i18n: company_b_date
   job:
     detail: Co-Founder and Fullstack Developer - organizaai.com
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-briefcase
   logo: /static/assets/img/landing/organizaai.png
 
 - name:
@@ -73,5 +73,5 @@
   job:
     detail: Student Assistant Researcher
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-file
   logo: /static/assets/img/landing/utfpr.png
