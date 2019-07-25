@@ -29,7 +29,7 @@ author:  # change following line to your information.
   skill_icon2:
     - name: fa-google
     - name: fa-github
-  desc: Hey Visitor! I'm Gustavo, a Full-Stack Developer using Javascript and Python || I have multiple experiences and projects with various frameworks in both || Open Source developer accepted in Google SoC || Check more below :)
+  desc: Hey Visitor! I'm Gustavo, a Full-Stack Developer using Javascript and Python || I have also experiences and projects with various JS and Python frameworks || Open Source developer accepted in Google SoC || Check more below :)
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
