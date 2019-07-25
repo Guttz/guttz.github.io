@@ -16,12 +16,6 @@ Today we live in a **connected and distributed world**, one that enables us to q
 
 This post is focused on describing in a simple language **what is the Hydra Ecosystem** and how it can make it easier to provide a new data-rich and linked World Wide Web. For that, **I'll guide you through an application implementation process** as the developer partner, so you can understand **how connecting services(APIs) are done today, and how they could be done tomorrow**. 
 
-<div style="height: 30px"></div>
-<a href="https://gustavomorais.me/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/gsoc_poster.png">
-<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/gsoc_poster.png" alt="hydra_ecosystem" style=" margin-left: auto; margin-right: auto; width: 750px; max-width: 100%;">
-<div style="height: 30px"></div>
-
-
 -------------
 ## Descriptive Interfaces
 
