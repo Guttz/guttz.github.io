@@ -5,7 +5,7 @@
     detail: Google Summer of Code Participant - Hydra Eco
     i18n: company_a
   desc:
-    detail: Developing the Hydra Ecosystem for the the next generation of Hypermedia APIs. Implementing a Smart Agent capable of consuming and interpreting a self descriptive Hydra API. <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> Google SoC Project Link </a>  	&nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://gustavomorais.me/gsoc19/"> Technical Blogging </a>
+    detail: <b class="career-bullets">•</b> Designed and Implemented a Python Smart API Client <br> <b class="career-bullets">•</b> Created Unit Tests, Documentation and Tech Blog for Hydra Agent <br> <b style="line-height:1.5">•</b> Developing a full-featured web-based demo to showcase Hydra Ecosystem's Server and Client tools built with Python <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> Google SoC Project Link </a> &nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://gustavomorais.me/gsoc19/"> Technical Blogging </a> <br>
     i18n: company_a_desc
   date:
     detail: May 2019 - Present
@@ -20,7 +20,7 @@
     detail: Volksbank / Fiducia & GAD IT AG - Germany
     i18n: company_a
   desc:
-    detail: Working alongside 5 team members from 5 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes  and various MVPs. Elected the best booth at the Annual German Banking Conference (COM19). <br><br> <a href="https://www.profil.bayern/05-2019/praxis/wie-kiu-und-botto-bankkunden-helfen-wollen/#c11190"> Profil Report </a>
+    detail: Inside a 6-Sized Agile team with people from 6 different countries our goal was to change "how to do payments" in Germany. We explored ideas, developed prototypes and MVPs with Node.js, Angular, Cloud Foundry, Python and Raspberry Pis. Elected the best booth at the Annual German Banking Conference (COM19). <br><br> <a href="https://www.profil.bayern/05-2019/praxis/wie-kiu-und-botto-bankkunden-helfen-wollen/#c11190"> Profil Report </a> &nbsp • &nbsp <a href="https://youtu.be/5aO1VXXkX1Y">Video Concept Presentation</a>
     i18n: company_a_desc
   date:
     detail: Oct. 2018 - May 2019
@@ -65,7 +65,7 @@
     detail: Federal Technological University of Paraná
     i18n: company_b
   desc:
-    detail: Developed and implemented a methodology for analyzing the efficiency of Curitiba's public transport. Co-author of an article that describes it, which was published in the Global Control of Transportation Systems Symposium.
+    detail: Developed and implemented a methodology for analyzing the efficiency of Curitiba's public transport. Co-author of an article that describes it, which was published in the Global Control of Transportation Systems Symposium. <br><br> <a href="https://www.sciencedirect.com/science/article/pii/S2405896316302300">Published Article</a> 
     i18n: company_b_desc
   date:
     detail: Aug. 2015 - Feb. 2017
