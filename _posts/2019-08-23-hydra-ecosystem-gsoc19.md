@@ -105,6 +105,8 @@ The GSoC 19' journey now comes to an end. I have to say it was personally a real
 
 And of course, all of that would not be possible without the support, time and will of my mentors [Akshay](https://github.com/xadahiya), [Chris](https://github.com/chrizandr) and [Lorenzo](https://github.com/Mec-iS). Whom have been, not only this summer but for years, cultivating the Hydra Ecosystem and giving their time and effort to develop this concept and provide the opportunity for other people to join and learn. My honest thanks for the knowledge and trust you've shared with me, it's something that I'll take with me in my career to become a better professional. I also have to give a huge shout out to my GSoC partner [Vishal Desai](https://github.com/vddesai1871) that helped me in most of my journey doing a meticulous work in hydrus and helping me with questions and concepts. He also has a great view of the world from which I've learned.
 
+<img src="/static/assets/img/blog/2019-07-09-hydra-ecosystem-101/gsoc_poster.png" alt="agent-structure" style="display: none; margin-left: auto; margin-right: auto; width: 900px; max-width: 100%;">
+
 [^1]: Hydra CG - https://www.hydra-cg.com/
 [^2]: Hydra Python Agent - https://github.com/HTTP-APIs/hydra-python-agent
 
