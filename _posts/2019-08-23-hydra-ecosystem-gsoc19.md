@@ -12,7 +12,7 @@ redirect_from:
   - /hydra-eco-gsoc19
 ---
 
-Hello reader, I'm Gustavo Morais and this post aims to summarize my journey throughout Google Summer of Code 19'. It has been three months of intensive learning and a remarkable experience as a developer which was divided in three coding phases. I'll divide each phase citing its goal, small description and core PR links attached to each. In the end I'll add some diverse auxiliary merged PRs.
+Hello reader, I'm Gustavo Morais and this post aims to summarize my journey throughout Google Summer of Code 19'. It has been three months of intensive learning and a remarkable experience as a developer which was divided into three coding phases. I'll divide each phase citing its goal, small description and core PR links attached to each. In the end, I'll add some diverse auxiliary merged contributions.
 
 [Our community](https://github.com/HTTP-APIs) has different tools including a working server that can be built from a Hydra Doc, a.k.a[^2] [hydrus](https://github.com/HTTP-APIs/hydrus). And also, we have a [^1]Python Agent to work with that server, [a.k.a Hydra Agent](https://github.com/HTTP-APIs/hydra-python-agent). I and my GSoC college Vishal Desai had a series of improvements to make, in which Vishal was leading hydrus' changes and I was responsible for the Agent side.
 
@@ -20,7 +20,7 @@ Hello reader, I'm Gustavo Morais and this post aims to summarize my journey thro
 ## [Phase 1] - Smart Agent Foundations
 
 
-The first period of GSoC was market by intensive study and discussions. I was in charge of developing the Python Hydra Agent to take it from being a only-GET PoC Command Line tool to a Pre-Alpha release supporting all basic operations of the Hydra Agent. For that, I created a document in which I detailed and discussed with the mentors the architecture and then proceed to the coding and lastly documenting it. References for this phase are as below:
+The first period of GSoC was market by intensive study and discussions. I was in charge of developing the Python Hydra Agent to take it from being an only-GET PoC Command Line tool to a Pre-Alpha release supporting all basic operations of the Hydra Agent. For that, I created a document in which I detailed and discussed with the mentors the architecture and then proceed to the coding and lastly documenting it. References for this phase are as below:
   
 #### Goal:
 
@@ -45,7 +45,7 @@ __Detailed blog post__ : https://gustavomorais.me/y8wx
 The second phase of GSoC 19' consisted of several different new features and enhancements developed separately to bring the Agent to its completeness. These included being able to use Hydra's descriptive concept to search resources by types and properties while updating some core packages, fixing bugs and making our caching mechanism with Redis more stable and complete.
 
 #### Goal:
-- Implement hydrus and Redis searching by type/properties, bug fixes and core packages updating
+- Implement hydrus and Redis searching by type/properties, bug fixes, and core packages updating.
 
 #### Pull Requests:
 
@@ -65,10 +65,10 @@ The second phase of GSoC 19' consisted of several different new features and enh
 
 -----------
 ## [Phase 3] Power up and Graph it up
-As the last phase started, we had covered a considerable amount of the core goals we had and now was time to close things out with a couple last features. We wanted our Agent to be even more powerful and then build a GUI(Graphical User Interface) so users can easily try the Agent and easily try deployed hydrus servers with a generic interface that is built according to the API Hydra Documentation.
+As the last phase started, we had covered a considerable amount of the core goals we had and now was time to close things out with a some last additions. We wanted our Agent to be even more powerful and then build a GUI(Graphical User Interface) so users can easily try the Agent and easily try deployed hydrus servers with a generic interface that is built according to the API Hydra Documentation.
 
 #### Goal:
-- Build a GUI for the Agent, deliver a Synchronization Mechanism between Client and Server and wrap up bug fixes and documentation
+- Build a GUI for the Agent, deliver a Synchronization Mechanism between Client and Server and wrap up bug fixes and documentation.
 
 ### Pull Requests:
 1. [[PR 123] Synchronization Mechanism](https://github.com/HTTP-APIs/hydra-python-agent/pull/123)
@@ -82,7 +82,7 @@ As the last phase started, we had covered a considerable amount of the core goal
 There were a couple of additional contributions made along the way and during the Community Bonding that will be mentioned for consistency but were mainly auxiliary: 
 
 ### Blogging
-Introductory article on the Hydra Ecosystem: https://gustavomorais.me/hydra-agent-101
+An introductory article on the Hydra Ecosystem: https://gustavomorais.me/hydra-agent-101
 
 ### hydrus
 
@@ -101,9 +101,9 @@ Introductory article on the Hydra Ecosystem: https://gustavomorais.me/hydra-agen
 2. [[PR 38] Deployment instructions, doc readability, warnings](https://github.com/HTTP-APIs/http-apis.github.io/pull/38) 
 
 ## Acknowledgments
-The GSoC 19' journey now comes to an end. It have to say it was personally a really important development phase for me and an experience that I'll remember forever. I feel now that I've progressed as a Software Developer and also that we were able to progress and take Hydra Ecosystem development a little bit further with a group of people spread in the world. 
+The GSoC 19' journey now comes to an end. I have to say it was personally a really important development phase for me and an experience that I'll remember forever. I feel now that I've progressed as a Software Developer and also that we were able to progress and take Hydra Ecosystem development a little bit further with a group of people spread in the world. 
 
-And of course, all of that would not be possible without the support, time and will of my mentors Lorenzo, Akshay and Chris. Whom have, not only this summer but for years, been cultivating the Hydra Ecosystem and giving their time and effort to develop this concept and provide the opportunity for other people to join and learn. My honest thanks for the knowledge and trust you've shared with me, it's something that I'll take with me in my career to become a better professional. I also have to give a huge shout out to my GSoC partner Vishal Desai that helped me in most of my journey doing a meticulous work in hydrus and helping me with questions and concepts. He also has a great view of world from which I've learned.
+And of course, all of that would not be possible without the support, time and will of my mentors [Akshay](https://github.com/xadahiya), [Chris](https://github.com/chrizandr) and [Lorenzo](https://github.com/Mec-iS). Whom have been, not only this summer but for years, cultivating the Hydra Ecosystem and giving their time and effort to develop this concept and provide the opportunity for other people to join and learn. My honest thanks for the knowledge and trust you've shared with me, it's something that I'll take with me in my career to become a better professional. I also have to give a huge shout out to my GSoC partner [Vishal Desai](https://github.com/vddesai1871) that helped me in most of my journey doing a meticulous work in hydrus and helping me with questions and concepts. He also has a great view of the world from which I've learned.
 
 [^1]: Hydra CG - https://www.hydra-cg.com/
 [^2]: Hydra Python Agent - https://github.com/HTTP-APIs/hydra-python-agent
