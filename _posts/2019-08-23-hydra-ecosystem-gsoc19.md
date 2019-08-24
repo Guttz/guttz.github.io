@@ -12,19 +12,19 @@ redirect_from:
   - /hydra-eco-gsoc19
 ---
 
-Hello reader, I'm Gustavo Morais and this post aims to summarize my journey throughout Google Summer of Code 19'. It has been three months of intensive learning and a remarkable experience as a developer which was divided into three coding phases. I'll divide each phase citing its goal, small description and core PR links attached to each. In the end, I'll add some diverse auxiliary merged contributions.
+Hello reader, I'm Gustavo Morais and this post aims to summarize my journey throughout Google Summer of Code 19'. It has been three months of intensive learning and a remarkable experience as a developer which was divided into three coding phases. I'll divide each phase citing its goal, small description and core PR links attached to each. I've made detailed blog posts about each phase and they're linked in the end of each section. The last part has some diverse auxiliary merged contributions done along the way.
 
-[Our community](https://github.com/HTTP-APIs) has different tools including a working server that can be built from a Hydra Doc, a.k.a[^2] [hydrus](https://github.com/HTTP-APIs/hydrus). And also, we have a [^1]Python Agent to work with that server, [a.k.a Hydra Agent](https://github.com/HTTP-APIs/hydra-python-agent). I and my GSoC college Vishal Desai had a series of improvements to make, in which Vishal was leading hydrus' changes and I was responsible for the Agent side.
+[Our community](https://github.com/HTTP-APIs) has different tools including a working server that can be built from a Hydra Doc, a.k.a[^2] [hydrus](https://github.com/HTTP-APIs/hydrus). And also, we have a [^1]Python Agent to work with that server, [a.k.a Hydra Agent](https://github.com/HTTP-APIs/hydra-python-agent). I and my GSoC colleague   Vishal Desai had a series of improvements to make, in which Vishal was leading hydrus' changes and I was responsible for the Agent side.
 
 -----------
 ## [Phase 1] - Smart Agent Foundations
 
 
-The first period of GSoC was market by intensive study and discussions. I was in charge of developing the Python Hydra Agent to take it from being an only-GET PoC Command Line tool to a Pre-Alpha release supporting all basic operations of the Hydra Agent. For that, I created a document in which I detailed and discussed with the mentors the architecture and then proceed to the coding and lastly documenting it. References for this phase are as below:
+The first period of GSoC was marked by **intensive study and discussions**. I was in charge of developing the Python Hydra Agent to take it from being an only-GET PoC Command Line tool to a Pre-Alpha release supporting all basic operations of the Hydra Agent. For that, I created a document in which I detailed and discussed with the mentors the architecture and then proceed to the coding and lastly documenting it. References for this phase are as below:
   
 #### Goal:
 
-- Implemented basic working Agent able to execute all CRUD operations through GET, PUT, POST and DELETE with URLs only.
+- **Implemented basic working Agent** able to execute all CRUD operations through GET, PUT, POST and DELETE with URLs only.
 
 #### Pull Request:
 
@@ -65,7 +65,7 @@ The second phase of GSoC 19' consisted of several different new features and enh
 
 -----------
 ## [Phase 3] Power up and Graph it up
-As the last phase started, we had covered a considerable amount of the core goals we had and now was time to close things out with a some last additions. We wanted our Agent to be even more powerful and then build a GUI(Graphical User Interface) so users can easily try the Agent and easily try deployed hydrus servers with a generic interface that is built according to the API Hydra Documentation.
+As the last phase started, we had covered a considerable amount of the core goals we had and now was time to close things out with a some last additions. We wanted our Agent to be even more powerful and then build a GUI(Graphical User Interface) so users can easily try the Agent and try deployed hydrus servers with a generic interface that is built according to the API Hydra Documentation.
 
 #### Goal:
 - Build a GUI for the Agent, deliver a Synchronization Mechanism between Client and Server and wrap up bug fixes and documentation.
