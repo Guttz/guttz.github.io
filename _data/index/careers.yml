@@ -5,7 +5,7 @@
     detail: Google Summer of Code Participant - Hydra Eco
     i18n: company_a
   desc:
-    detail: <strong class="career-bullets">•</strong> Designed and Implemented a Python Smart API Client <br> <b class="career-bullets">•</b> Created Unit Tests, Documentation and Tech Blog for Hydra Agent <br> <b style="line-height:1.5">•</b> Developing a full-featured web-based demo to showcase Hydra Ecosystem's Server and Client tools built with Python <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> Google SoC Project Link </a> &nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://gustavomorais.me/gsoc19/"> Technical Blogging </a> <br>
+    detail: <strong class="career-bullets">•</strong> Designed and Implemented a Python Smart API Client <br> <strong class="career-bullets">•</strong> Created Unit Tests, Documentation and Tech Blog for Hydra Agent <br> <b style="line-height:1.5">•</b> Developing a full-featured web-based demo to showcase Hydra Ecosystem's Server and Client tools built with Python <br><br> <a href="https://summerofcode.withgoogle.com/projects/#5617428053098496"> Google SoC Project Link </a> &nbsp • &nbsp <a href="https://github.com/search?q=org%3AHTTP-APIs+author%3AGuttz"> Contributions Link </a> &nbsp • &nbsp <a href="https://gustavomorais.me/gsoc19/"> Technical Blogging </a> <br>
     i18n: company_a_desc
   date:
     detail: May 2019 - Present
