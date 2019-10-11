@@ -21,7 +21,7 @@ author:  # change following line to your information.
   twitter_username: # Leave blank if you don't have now
   stackoverflow_profile: https://stackoverflow.com/users/10985707/gustavo-morais # Leave blank if you don't have now
   email: moraisgpm@gmail.com # Leave blank if you don't have now
-  cv: https://drive.google.com/uc?authuser=0&id=1nGLynFP-0i2rpMUqGq1fQdKkV62hhhSU&export=download  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/uc?id=1nondgfTXRZYtK7hnNiRXJ1Nk-NrGhrG3&authuser=0&export=download  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-python
